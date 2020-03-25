@@ -19,7 +19,7 @@ public class LoginPage {
     }
 
     public void inputPassword(String inputPassword){
-        driver.findElement(username).clear();
+        driver.findElement(password).clear();
         driver.findElement(password).sendKeys(inputPassword);
     }
 
